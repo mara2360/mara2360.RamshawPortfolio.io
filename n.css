@@ -1,0 +1,633 @@
+.container2
+{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.text-content
+{
+	flex: 1;
+}
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the full height for the container */
+body, html
+{
+    height: 50%;
+    scroll-behavior: smooth;
+}
+
+/* Yellow header */
+.yellow-background
+{
+	background-color: #FFD200;
+	margin: -0.6875rem; /*-11px;*/
+	padding: 2rem;/*40px;*/
+	padding-bottom: 2%;
+	height: 15.625rem/*250%;*/
+	display: flex;
+}
+
+/* Portfolio */
+#top
+{
+	text-align: center;
+	color: black;
+	font-family: "trirong", serif;
+	letter-spacing: 0.125rem;/*2px;*/
+	font-size: 4.375rem;/*70px;*/
+	font-weight: 300;
+	padding-top: 5%;
+}
+
+/* Under portfolio */
+#top2
+{
+	text-align: center;
+	color: black;
+	font-family: "quicksand", sans-serif;
+	font-size: 1.875rem;/*30px;*/
+	font-weight: 100;
+	letter-spacing: 0.09375rem/*1.5px;*/
+	line-height: 2.5rem;/*40px;*/
+	padding-top: 2%;
+}
+/* End Yellow Header */
+
+
+/* Container with split layout */
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+/* Black side */
+.black-side {
+    background-color: black;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button */
+.black-side button
+{
+    background-color: #FFD200;
+    color: black;
+    border: none;
+    padding: 1.25rem 1.875rem;/*20px 30px;*/
+    margin: 2.8125rem; /*45px;*/
+    cursor: pointer;
+    border-radius: 0.3125rem; /*5px;*/
+    font-size: 1.4375rem; /*23px;*/
+    font-family: "quicksand", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.0625rem; /*1px;*/
+}
+
+/* Button hover */
+.black-side button:hover
+{
+    background-color: black;
+    color: #FFD200;
+    font-family: "quicksand", sans-serif;
+	letter-spacing: 0.0625rem; /*1px;*/
+}
+/* End of black side */
+
+/* White side */
+.white-side
+{
+    background-color: white;
+    width: 50%;
+    padding: 2.8125rem;/*45px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.white-side h1
+{
+    margin-bottom: 0.625rem;/*10px;*/
+    font-weight: 300;
+    font-family: "trirong", serif;
+    color: black;
+}
+
+.white-side span
+{
+    font-size: 0.9375rem;/*15px;*/
+    font-family: "quicksand", sans-serif;
+    text-align: left;
+    white-space: pre-wrap;
+    font-weight: 100;
+    color: black;
+    line-height: 1;
+    letter-spacing: 0.0625rem;/*1px;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+/* End of white side */
+
+/* Yellow header2 */
+.yellow-background2
+{
+	background-color: #FFD200;
+	margin: -0.6875rem;/*-11px;*/
+	padding: 2.5rem;/*40px;*/
+}
+
+
+/* Icons */
+.fab, .fas
+{
+	font-size: 2.5rem;/*40px;*/
+	color: black;
+	margin: 0 0.625rem; /*0 10px;*/
+	display: center;
+}
+.icons
+{
+	display: flex;
+	justify-content: center;
+	gap: 0.9375rem; /*15px;*/
+}
+/* End of icons */
+
+@media (max-width: 1400px)
+{
+	/* Yellow header */
+.yellow-background
+{
+	background-color: #FFD200;
+	margin: -0.6875rem; /*-11px;*/
+	padding: 2.5rem;/*40px;*/
+	padding-bottom: 2%;
+	height: 15.625rem/*250%;*/
+	display: flex;
+}
+
+/* Portfolio */
+#top
+{
+	text-align: center;
+	color: black;
+	font-family: "trirong", serif;
+	letter-spacing: 0.125rem;/*2px;*/
+	font-size: 4.375rem;/*70px;*/
+	font-weight: 300;
+	padding-top: 5%;
+}
+
+/* Under portfolio */
+#top2
+{
+	text-align: center;
+	color: black;
+	font-family: "quicksand", sans-serif;
+	font-size: 1.875rem;/*30px;*/
+	font-weight: 100;
+	letter-spacing: 0.09375rem/*1.5px;*/
+	line-height: 2.5rem;/*40px;*/
+	padding-top: 2%;
+}
+/* End Yellow Header */
+
+
+/* Container with split layout */
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+/* Black side */
+.black-side {
+    background-color: black;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button */
+.black-side button
+{
+    background-color: #FFD200;
+    color: black;
+    border: none;
+    padding: 1.25rem 1.875rem;/*20px 30px;*/
+    margin: 2.8125rem; /*45px;*/
+    cursor: pointer;
+    border-radius: 0.3125rem; /*5px;*/
+    font-size: 1.4375rem; /*23px;*/
+    font-family: "quicksand", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.0625rem; /*1px;*/
+}
+
+/* Button hover */
+.black-side button:hover
+{
+    background-color: black;
+    color: #FFD200;
+    font-family: "quicksand", sans-serif;
+	letter-spacing: 0.0625rem; /*1px;*/
+}
+/* End of black side */
+
+/* White side */
+.white-side
+{
+    background-color: white;
+    width: 50%;
+    padding: 2.8125rem;/*45px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.white-side h1
+{
+    margin-bottom: 0.625rem;/*10px;*/
+    font-weight: 300;
+    font-family: "trirong", serif;
+    color: black;
+}
+
+.white-side span
+{
+    font-size: 0.9375rem/*15px;*/
+    font-family: "quicksand", sans-serif;
+    text-align: left;
+    white-space: pre-wrap;
+    font-weight: 100;
+    color: black;
+    line-height: 1.3;
+    letter-spacing: 0.0625rem;/*1px;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+/* End of white side */
+
+/* Scrollbar */
+.scrollbar
+{
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: none;
+	padding: 0.7rem;
+}
+/* End scrollbar */
+
+
+/* Yellow header2 */
+.yellow-background2
+{
+	background-color: #FFD200;
+	margin: -0.6875rem;/*-11px;*/
+	padding: 2.5rem;/*40px;*/
+}
+
+
+/* Icons */
+.fab, .fas
+{
+	font-size: 2.5rem;/*40px;*/
+	color: black;
+	margin: 0 0.625rem; /*0 10px;*/
+	display: center;
+}
+.icons
+{
+	display: flex;
+	justify-content: center;
+	gap: 0.9375rem; /*15px;*/
+}
+/* End of icons */
+}
+
+@media (max-width: 768px)
+{
+	/* Yellow header */
+.yellow-background
+{
+	background-color: #FFD200;
+	margin: -0.6875rem; /*-11px;*/
+	padding: 2.5rem;/*40px;*/
+	padding-bottom: 2%;
+	height: 15.625rem/*250%;*/
+	display: flex;
+}
+
+/* Portfolio */
+#top
+{
+	text-align: center;
+	color: black;
+	font-family: "trirong", serif;
+	letter-spacing: 0.125rem;/*2px;*/
+	font-size: 400%;/*70px;*/
+	font-weight: 300;
+	padding-top: 5%;
+}
+
+/* Under portfolio */
+#top2
+{
+	text-align: center;
+	color: black;
+	font-family: "quicksand", sans-serif;
+	font-size: 140%;/*30px;*/
+	font-weight: 100;
+	letter-spacing: 0.09375rem/*1.5px;*/
+	line-height: 2.5rem;/*40px;*/
+	padding-top: 2%;
+}
+/* End Yellow Header */
+
+
+/* Container with split layout */
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+/* Black side */
+.black-side {
+    background-color: black;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button */
+.black-side button
+{
+    background-color: #FFD200;
+    color: black;
+    border: none;
+    padding: 1.25rem 1.875rem;/*20px 30px;*/
+    margin: 2.8125rem; /*45px;*/
+    cursor: pointer;
+    border-radius: 0.3125rem; /*5px;*/
+    font-size: 1.4375rem; /*23px;*/
+    font-family: "quicksand", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.0625rem; /*1px;*/
+}
+
+/* Button hover */
+.black-side button:hover
+{
+    background-color: black;
+    color: #FFD200;
+    font-family: "quicksand", sans-serif;
+	letter-spacing: 0.0625rem; /*1px;*/
+}
+/* End of black side */
+
+/* White side */
+.white-side
+{
+    background-color: white;
+    width: 50%;
+    padding: 2.8125rem;/*45px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.white-side h1
+{
+    margin-bottom: 0.625rem;/*10px;*/
+    font-weight: 300;
+    font-family: "trirong", serif;
+    color: black;
+}
+
+.white-side span
+{
+    font-size: 90%;/*15px;*/
+    font-family: "quicksand", sans-serif;
+    text-align: left;
+    white-space: pre-wrap;
+    font-weight: 100;
+    color: black;
+    line-height: 1.3;
+    letter-spacing: 0.0625rem;/*1px;*/
+    max-width: 100%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+/* End of white side */
+
+/* Scrollbar */
+.scrollbar
+{
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: none;
+	padding: 0.7rem;
+}
+/* End scrollbar */
+
+
+/* Yellow header2 */
+.yellow-background2
+{
+	background-color: #FFD200;
+	margin: -0.6875rem;/*-11px;*/
+	padding: 2.5rem;/*40px;*/
+}
+
+
+/* Icons */
+.fab, .fas
+{
+	font-size: 2.5rem;/*40px;*/
+	color: black;
+	margin: 0 0.625rem; /*0 10px;*/
+	display: center;
+}
+.icons
+{
+	display: flex;
+	justify-content: center;
+	gap: 0.9375rem; /*15px;*/
+}
+/* End of icons */
+}
+
+@media (max-width: 576px)
+{
+	/* Yellow header */
+.yellow-background
+{
+	background-color: #FFD200;
+	margin: -0.6875rem; /*-11px;*/
+	padding: 2.5rem;/*40px;*/
+	padding-bottom: 2%;
+	height: 15.625rem/*250%;*/
+	display: flex;
+}
+
+/* Portfolio */
+#top
+{
+	text-align: center;
+	color: black;
+	font-family: "trirong", serif;
+	letter-spacing: 0.125rem;/*2px;*/
+	font-size: 350%;/*70px;*/
+	font-weight: 300;
+	padding-top: 5%;
+}
+
+/* Under portfolio */
+#top2
+{
+	text-align: center;
+	color: black;
+	font-family: "quicksand", sans-serif;
+	font-size: 120%;/*30px;*/
+	font-weight: 100;
+	letter-spacing: 0.09375rem/*1.5px;*/
+	line-height: 2.5rem;/*40px;*/
+}
+/* End Yellow Header */
+
+
+/* Container with split layout */
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+/* Black side */
+.black-side
+{
+    background-color: black;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button */
+.black-side button
+{
+    background-color: #FFD200;
+    color: black;
+    border: none;
+    padding: 1rem 1.8rem;/*20px 30px;*/
+    margin: 2.8125rem; /*45px;*/
+    cursor: pointer;
+    border-radius: 0.3125rem; /*5px;*/
+    font-size: 1rem; /*23px;*/
+    font-family: "quicksand", sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.0625rem; /*1px;*/
+}
+
+/* Button hover */
+.black-side button:hover
+{
+    background-color: black;
+    color: #FFD200;
+    font-family: "quicksand", sans-serif;
+	letter-spacing: 0.0625rem; /*1px;*/
+}
+/* End of black side */
+
+/* White side */
+.white-side
+{
+    background-color: white;
+    width: 50%;
+    padding: 5%;/*45px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.white-side h1
+{
+    margin-bottom: 0.625rem;/*10px;*/
+    font-weight: 300;
+    font-family: "trirong", serif;
+    color: black;
+    font-size: 180%;
+}
+
+.white-side span
+{
+    font-size: 70%;/*15px;*/
+    font-family: "quicksand", sans-serif;
+    text-align: left;
+    white-space: pre-wrap;
+    font-weight: 100;
+    color: black;
+    line-height: 1.3;
+    letter-spacing: 0.0625rem;/*1px;*/
+    max-width: 100%;
+    overflow-wrap:break-word;
+	overflow: hidden;
+}
+/* End of white side */
+
+/* Scrollbar */
+.scrollbar
+{
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: none;
+	padding: 0.7rem;
+}
+/* End scrollbar */
+
+
+/* Yellow header2 */
+.yellow-background2
+{
+	background-color: #FFD200;
+	margin: -0.6875rem;/*-11px;*/
+	padding: 2.5rem;/*40px;*/
+}
+
+
+/* Icons */
+.fab, .fas
+{
+	font-size: 2.5rem;/*40px;*/
+	color: black;
+	margin: 0 0.625rem; /*0 10px;*/
+	display: center;
+}
+.icons
+{
+	display: flex;
+	justify-content: center;
+	gap: 0.9375rem; /*15px;*/
+}
+/* End of icons */
+}
